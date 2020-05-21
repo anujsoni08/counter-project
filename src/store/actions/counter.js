@@ -12,16 +12,16 @@ export const decrement = () => {
   };
 };
 
-export const incrementBy5 = (value) => {
+export const add = (value) => {
   return {
-    type: actionTypes.INCREMENTBY5,
+    type: actionTypes.ADD,
     value: value,
   };
 };
 
-export const decrementBy5 = (value) => {
+export const subtract = (value) => {
   return {
-    type: actionTypes.DECREMENTBY5,
+    type: actionTypes.SUBTRACT,
     value: value,
   };
 };

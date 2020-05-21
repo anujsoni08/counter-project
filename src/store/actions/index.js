@@ -1,3 +1,3 @@
-export { increment, incrementBy5, decrement, decrementBy5 } from "./counter";
+export { increment, add, decrement, subtract } from "./counter";
 
 export { storeResult, deleteResult } from "./result";
